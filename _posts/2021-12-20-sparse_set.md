@@ -1,5 +1,5 @@
 ---
-layout: defaul
+layout: default
 title: sparse set
 ---
 
@@ -7,7 +7,7 @@ title: sparse set
 
 ***背景***: 
 
-​	游戏服务器需要一种数据结构存储大量同类对象（比如 *castle，square* ），根据以往的游戏开发经验，对该数据结构提出以下基本抽象：
+​	游戏服务器需要一种数据结构存储大量同类对象（比如 *building，monster* ），根据以往的游戏开发经验，对该数据结构提出以下基本抽象：
 
 1. *set(obj)*: 存放一个对象，给出唯一的标志id
 2. *get(id)*: 给定id，定位到与该id绑定的对象地址
